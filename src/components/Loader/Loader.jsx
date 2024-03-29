@@ -1,8 +1,10 @@
 import {Hourglass} from 'react-loader-spinner';
+import styles from '../Loader/Loader.module.css';
+
 
 const Loader = () => {
     return (
-       <div>
+       <div className={styles.loaderContainer}>
         <Hourglass
         visible={true}
         height="80"
