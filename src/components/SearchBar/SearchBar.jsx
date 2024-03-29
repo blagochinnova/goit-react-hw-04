@@ -22,7 +22,7 @@ export default function SearchBar({ onSubmit }) {
 
     return (
         <header className={styles.header}>
-            <form onSubmit={handleSubmit}>
+            <form className={styles.searchForm} onSubmit={handleSubmit}>
                 <input
                     type="text"
                     autoComplete="off"
@@ -32,7 +32,7 @@ export default function SearchBar({ onSubmit }) {
                     onChange={handleChange}
                     className={styles.input}
                 />
-                <button type="submit" className={styles.btn}>< CiSearch/></button>
+                <button type="submit" className={styles.searchBtn}>< CiSearch/></button>
             </form>
         </header>
     );

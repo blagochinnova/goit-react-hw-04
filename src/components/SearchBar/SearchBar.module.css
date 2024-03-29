@@ -1,4 +1,4 @@
-header {
+.header {
 position: fixed;
 top: 0;
 left: 0;
@@ -8,21 +8,24 @@ padding: 15px;
 border-bottom: 1px solid #395886;
 display: flex;
 justify-content: center;
-};
+}
 
-input[type="text"] {
+.searchForm input {
     padding: 8px;
     margin-right: 10px;
-    border: 1px solid #ccc;
+    border: 1px solid #395886;
     border-radius: 5px;
-};
+}
 
-
-.btn {
-    padding: 8px 15px;
+.searchBtn {
+    padding: 8px 8px;
     background-color: #395886;
     color: white;
     border: none;
     border-radius: 5px;
     cursor: pointer;
+}
+
+.searchBtn:hover {
+    background-color: #638ecb;
 }

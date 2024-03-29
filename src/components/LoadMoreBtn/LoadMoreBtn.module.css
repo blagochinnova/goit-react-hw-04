@@ -7,7 +7,7 @@
 
 .loadMoreButton {
     padding: 16px 26px;
-    background-color: #808080;
+    background-color: #395886;
     color: white;
     border: none;
     border-radius: 5px;
@@ -15,6 +15,6 @@
     font-size: 18px;
 }
 
-.loadMoreButton:hover {
-    background-color: #696969;
+.loadMoreButton:hover{
+    background-color: #638ecb;
 }
